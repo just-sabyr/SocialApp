@@ -6,6 +6,12 @@ TODO
 ## Create an OAuth2 API in Google Cloud Project
 -- Refer to the book on how exactly this is done
 
+## Change the etc/hosts file, so that your browser is treaked (GoogleOAuth2 needs a host name that is different than localhost)
+Add the following line:
+```
+127.0.0.1 mysite.com
+```
+
 ## Create a python venv
 ```bash
     python3 -m venv venv
